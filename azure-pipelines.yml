@@ -7,7 +7,7 @@ trigger:
 - master
 
 variables:
-  rootDir: 'my-app'
+  rootDir: 'anime-app'
   buildDir: '$(rootDir)/build'
 
 pool:
