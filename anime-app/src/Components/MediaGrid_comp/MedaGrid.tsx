@@ -21,10 +21,7 @@ function MediaGrid(props: IUserInput) {
   // }, [props.SearchQuery]);
 
   useEffect(() => {
-    fetch(
-      "https://kitsu.io/api/edge/anime?filter%5Bcategories%5D=" +
-        props.SearchQuery
-    )
+    fetch("https://kitsu.io/api/edge/anime?filter[text]=" + props.SearchQuery)
       .then((response) => response.json())
       .then((response) => {
         console.log(response);
