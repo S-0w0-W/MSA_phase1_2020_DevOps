@@ -27,11 +27,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <MuiThemeProvider theme={theme}>
-        <SearchBar SetUserInput={(a: IUserInput) => SetUserInput(a)} />
-        <MediaGrid SearchQuery={UserInput.SearchQuery} />
-        
-      </MuiThemeProvider> */}
       <SearchBar SetUserInput={(a: IUserInput) => SetUserInput(a)} />
       <MediaGrid SearchQuery={UserInput.SearchQuery} />
     </div>

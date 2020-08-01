@@ -38,7 +38,7 @@ function SearchBar(props: ISearchBarProps) {
           <TextField
             required
             id="outlined-required"
-            label="Search a genre or show!"
+            label="Search a show!"
             variant="outlined"
             error={HasFocus && SearchQuery === ""}
             onClick={() => setHasFocus(true)}

@@ -1,7 +1,10 @@
 .SearchBarContainer {
-  margin: auto;
+  /* margin: auto; */
   margin: 20px;
-  padding-inline-end: 50%;
+  /* padding-inline-end: 50%; */
+  /* padding-left: 50%; */
+  /* margin-inline-start: 20%; */
+  padding-left: 10%;
 }
 
 .MuiGrid-root div {
