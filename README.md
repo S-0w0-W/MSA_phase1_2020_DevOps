@@ -1,6 +1,7 @@
 # MSA_phase1_2020_DevOps
 
-
+## website url: 
+check.azurewebsites.net
 ## azure-pipelines.yml
 ### *Usage:*
 By using the a pipeline it allows users to build, test, and upload automatically and simplifies tasks for group projects. In this case the pipeline is connected to GitHub and operate based on it's activities. This file can be in many different forms, in this case for GitHub it is stored as a ```.yml```. This file contains abstracted code that makes understanding and following all the operations taking place a bit easier.
